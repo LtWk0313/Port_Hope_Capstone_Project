@@ -3,7 +3,7 @@
 
 body {
     margin: 0;
-    background-image: url(..//images/county-fair-don-engler.jpg);
+    background-image: url(images/county-fair-don-engler.jpg);
 }
 
 /****** Make sure they have this rule below!! */
@@ -24,7 +24,7 @@ body {
 header {
     width: 960px;
     height: 85px;
-    background-image: url("..//images/Port_Hope_Header.png");
+    background-image: url("images/Port_Hope_Header.png");
     margin: 0px 0px 0px 0px;
     background-size: 960px 85px;
 }
@@ -157,7 +157,7 @@ p{
 footer {
     width: 960px;
     height: 200px;
-    background-image: url(..//images/Port_Hope_Footer.png);
+    background-image: url(images/Port_Hope_Footer.png);
     background-size: 960px 200px;
     text-align: center;
 }
