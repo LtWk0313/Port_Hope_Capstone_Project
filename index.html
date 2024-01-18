@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Port Hope - Sample Site - Class Tutorial - Inserting Content with HTML and Styling and Positioning Content with CSS</title>
+
+<!-- This is a comment -->
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Baloo Tamma 2' rel='stylesheet'>
+    
+</head>
+
+<body>
+    
+   <div id="container">
+    
+        <header>
+       
+            <div id="logoboxsocialmedia">
+                <a href="index.html"><img id="logobox" src="images/Port_Hope_New_Logo.png" ></a>
+                <a href="https://www.facebook.com/porthopefair/"><img id="fb_icon" src="images/fb_icon.png" width="35px" height="35px"></a>
+                <a href="https://www.instagram.com/porthopefair/"><img id="ig_icon" src="images/ig_icon.png" width="35px" height="35px"></a>
+                <a href="https://www.instagram.com/porthopefair/"><img id="youtube_icon" src="images/youtube_icon.png" width="35px" height="35px"></a>
+            </div>
+
+        </header>
+            
+            <nav>
+            
+                <a href="Events.html"><img src="images/Events Nav.png" width="130px" height="85px"></a>
+                <a href="Local_ Market.html"><img src="images/Local Market Nav.png"  width="130px" height="85px"></a> <!-- Our internal page -->
+                <a href="Admission_Passes.html"><img src="images/Admissions_Passes_Nav.png"  width="130px" height="85px"></a>
+                <a href="index.html"><img src="images/Talent_Show_Nav.png"  width="130px" height="85px"></a>
+                <a href="index.html"><img src="images/Volunteers Nav.png"  width="130px" height="85px"></a>
+            
+            </nav>
+
+                                               <!-- Slideshow container -->
+                                               <div class="slideshow-container">
+
+                                                <!-- Full-width images with number and caption text -->
+                                                  <div class="mySlides fade">
+                                                        <div class="text">
+                                                            <h1>Sep 14-17 2023</h1>
+                                                            <h3>Explore the Unknown at Port Hope !</h3>
+                                                        </div>
+                                                      <img src="images/ph_fair_28_cropped.png" alt="Port Hope ferris with blue sky"/>
+                                                  </div>
+                                                  
+                                                  <div class="mySlides fade">
+                                                        <div class="text">
+                                                            <h1>Sep 14-17 2023</h1>
+                                                            <h3>Have fun at the Booths!</h3>
+                                                        </div>
+                                                      <img src="images/ph_fair_5_scaled.png" alt="Close up barrel of grain at the Port Hope Fair"/>
+                                                  </div>
+                                                  
+                                                  <div class="mySlides fade">
+                                                        <div class="text">
+                                                            <h1>Sep 14-17 2023</h1>
+                                                            <h3>Stay Close to the Nature !</h3>
+                                                        </div>
+                                                      <img src="images/ph_fair_23_cropped.png" alt="Close up cobbs of corn at the Port Hope Fair"/>
+                                                  </div>
+                                                  
+                                                  <div class="mySlides fade">
+                                                        <div class="text">
+                                                            <h1>Sep 14-17 2023</h1>
+                                                            <h3>Pumpkins from the Neighbourhoods!</h3>
+                                                        </div>
+                                                      <img src="images/ph_fair_14_cropped.png" alt="Performer with a show dog at the Port Hope Fair"/>
+                                                  </div>
+                                                  
+                                                  
+                              
+                                                <!-- Next and previous buttons -->
+                                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                              
+                              
+                                              <!-- The dots/circles -->
+                                              <div class="dotnav">
+                                                  <span class="dot" onclick="currentSlide(1)"></span>
+                                                  <span class="dot" onclick="currentSlide(2)"></span>
+                                                  <span class="dot" onclick="currentSlide(3)"></span>
+                                                  <span class="dot" onclick="currentSlide(3)"></span>
+                                              </div>
+
+                                              <div class="wheel_upper" onmousemove="rotateImage(event)"> 
+                                              <img id="ferris_wheel_upper" src="images/ferrris_wheel_upper.png" width="375px" height="375px">
+                                              </div>
+                                              </div>
+       
+        
+        <div id="mainbody">
+        <div id="ferris_wheel">
+            <img src="images/Ferris_Wheel_Lower.png" width="220px" height="200px">
+            <img src="images/grassland.png" width="960px" height="10px">
+        </div>
+       
+        <div id="location">
+            <div id="locationbox">
+                <a><iframe width="600px" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=62%20McCaul%20St,%20Port%20Hope,%20ON%20L1A%201A2+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Population calculator map</a></iframe></a>
+            </div>
+            <div id="locationtext">
+                <h2> Where Is It?</h2> 
+                <h2> Check It Out !</h2>
+            </div>
+        </div>
+            
+            <div id="Recent_News">
+                  <h2 id="Highlight"> Highlighted Events !!!</h2>
+                <div id="leftrecent">
+                    <a href="#"><img src="images/ph_fair_22.jpg"  width="310px"></a>
+                   <h2> Agri-Education </h2>
+                   <p> Our volunteers, along with teachers and parent volunteers, will escort the students from station to station in groups of twenty. <br> <br>
+                       They will see, hear and participate in activities at each station.</p>
+                   <ul>
+                    <li>Honey – Graham McCall and Paul Watson </li>
+                    <li>Dairy – Natalie Kellogg </li>
+                    <li>Horseshoeing – Dave and Justin Davis</li>
+                   </ul>
+
+                </div>
+                <div id="centerrecent">
+                   <a href="#"><img src="images/ph_fair_30.jpg"  width="310px"></a>
+                   <h2> Let's Enroll !!! <br><br></h2> 
+                   <form> 
+                    <input type="text" id="name" name="name" placeholder="Name" required> <br> <br>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <label for="events">Events</label>
+                    <br>
+                     <select id="events" name="events" size="2" single>
+                     <option value="Agri-Education">Agri-Education</option>
+                     <option value="Talent Show">Talent Show</option>
+                     </select>
+                     <br><br>
+                    <button type="submit">Submit</button>
+                   </form>
+                </div>
+                <div id="rightrecent">
+                    <a href="#"><img src="images/ph_fair_13.jpg"  width="310px"></a>
+                   <h2> Talent Show </h2>
+                   <p> Open to singers, dancers, magicians, actors, jugglers, story tellers, instrumentalist and anyone with a talent to share. <br><br>
+                       Can't wait to see the performance!  </p> 
+                <ul>
+                   <li> 10 years of age and under Prizes will be given to all participants </li> <br>
+                   <li> Groups of any age Prizes for 1st, 2nd and 3rd </li> <br>
+                   <li> Any entry wishing to share a story, dance or other performance to celebrate our theme “Celebrating 190 Years of Agriculture” </li>
+                </ul>
+                </div>
+            </div>
+       
+        </div>
+
+       <br clear="all" />
+       
+        <footer>
+
+        </footer>
+    
+   </div>
+
+   <script src="..//root/js/home_page_animation.js"></script>
+    
+</body>
+</html>

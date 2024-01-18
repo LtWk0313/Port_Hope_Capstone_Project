@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    margin: 0;
+    background-image: url(..//images/county-fair-don-engler.jpg);
+}
+
+/****** Make sure they have this rule below!! */
+* {
+    box-sizing: border-box;
+    font-family: 'Baloo Tamma 2';
+    line-height: 15px;
+    color: #9D6026;
+}
+
+#container {
+    width: 960px;
+    height: 1600px;
+    background: linear-gradient(#FFF6E6,#EFE1DC);
+    margin: 0px auto 0px auto; /* This is the code I use to center a block level element but NOT to center content inside of it */
+}
+
+header {
+    width: 960px;
+    height: 85px;
+    background-image: url("..//images/Port_Hope_Header.png");
+    margin: 0px 0px 0px 0px;
+    background-size: 960px 85px;
+}
+
+#logoboxsocialmedia {
+    width: 960px;
+    height: 85px;
+    float: left;
+    text-align: left;
+}
+
+#logobox{
+    width: 300px;
+    height: 85px;
+    background-color: #E2F9FE;
+}
+
+#fb_icon {
+    margin: 10px 20px 13px 420px;
+}
+
+#ig_icon {
+    margin: 10px 20px 13px 0px;
+}
+
+#youtube_icon {
+    margin: 10px 0px 13px 0px;
+}
+
+#logobox:hover{
+    background-color: white;
+}
+
+#fb_icon:hover{
+    background-color: white;
+}
+
+#ig_icon:hover{
+    background-color: white;
+}
+
+#youtube_icon:hover{
+    background-color: white;
+}
+
+nav {
+    width: 960px;
+    height: 85px;
+    line-height: 52px;
+    background-color: #FFF38A;
+    float: left;
+    margin: 0px 2px 0px 0px;
+    text-align: center;
+}
+
+
+nav a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0px 5px;
+}
+
+nav img:hover{
+    background-color: white;
+}
+
+nav a:hover {
+    color: white;
+}
+
+h1{
+    font-size:40px;
+    text-align: center;
+    margin: 120px 20px 20px 20px;
+}
+
+th {
+    display: none;
+}
+
+.table_pic {
+    text-align: right;
+    margin:0 0 0 0;
+}
+
+.table_top {
+    font-size: 25px;
+    line-height: 25px;
+    margin: 10px 0 0 0;
+}
+
+td {
+    display: block;
+    margin: 0 0 0 0;
+    background-color: transparent;
+    border: 5px solid transparent;
+    text-align: center;
+}
+
+td.img {
+    margin: 0 0 0 0 ;
+}
+
+tr {
+    display: inline-block;
+    margin: 20px 25px 20px 40px;
+    background: linear-gradient(#FFF6E6,#EFE1DC);
+    /*box-shadow: 0 0 1rem transparentize( black, 0.9 ); */
+    overflow: hidden;
+    width: 400px;
+    text-align: center;
+    box-shadow: 10px 0 10px -10px #666,
+            -10px 0 10px -10px #666;
+}
+
+h3{
+    font-size:30px;
+    text-align: center;
+    color:#9D6026;
+}
+
+p{
+    text-align: center;
+    color:#9D6026;
+}
+
+footer {
+    width: 960px;
+    height: 200px;
+    background-image: url(..//images/Port_Hope_Footer.png);
+    background-size: 960px 200px;
+    text-align: center;
+}
+

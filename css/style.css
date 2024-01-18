@@ -1,0 +1,399 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    margin: 0;
+    background-image: url(..//images/county-fair-don-engler.jpg);
+}
+
+/****** Make sure they have this rule below!! */
+* {
+    box-sizing: border-box;
+    font-family: 'Baloo Tamma 2';
+    line-height: 15px;
+    color: #9D6026;
+}
+
+#container {
+    width: 960px;
+    height: 1600px;
+    background: linear-gradient( #d1fdff,#fddb92);
+    margin: 0px auto 0px auto; /* This is the code I use to center a block level element but NOT to center content inside of it */
+}
+
+header {
+    width: 960px;
+    height: 85px;
+    background-image: url("..//images/Port_Hope_Header.png");
+    margin: 0px 0px 0px 0px;
+    background-size: 960px 85px;
+}
+
+#logoboxsocialmedia {
+    width: 960px;
+    height: 85px;
+    float: left;
+    text-align: left;
+}
+
+#logobox{
+    width: 300px;
+    height: 85px;
+    background-color: #E2F9FE;
+}
+
+#fb_icon {
+    margin: 10px 20px 13px 420px;
+}
+
+#ig_icon {
+    margin: 10px 20px 13px 0px;
+}
+
+#youtube_icon {
+    margin: 10px 0px 13px 0px;
+}
+
+#logobox:hover{
+    background-color: white;
+}
+
+#fb_icon:hover{
+    background-color: white;
+}
+
+#ig_icon:hover{
+    background-color: white;
+}
+
+#youtube_icon:hover{
+    background-color: white;
+}
+
+nav {
+    width: 960px;
+    height: 85px;
+    line-height: 52px;
+    background-color: #FFF38A;
+    float: left;
+    margin: 0px 2px 0px 0px;
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0px 5px;
+}
+
+nav img:hover{
+    background-color: white;
+}
+
+nav a:hover {
+    color: white;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+    width: 985px;
+    position: relative;
+    margin-top: 25px;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -40px;
+    margin-left: 10px;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    color: rgba(255,255,255,0.5);
+}
+
+/* The dots/bullets/indicators */
+.dotnav {
+    text-align: right;
+    width: 980px;
+    padding-top: 10px;
+    transform: translate(-40px);
+}
+
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    border: solid 1px #9D6026;
+    margin: 0 5px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #9D6026;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    padding: 8px 12px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    text-shadow: 0px 0px 10px #000;
+}
+.mySlides h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    text-transform: uppercase;
+    color: white;
+}
+.mySlides h3 {
+    font-size: 20px;
+    margin: 0 0 0 0;
+    color: white;
+}
+
+.slidebutton {
+    color: #000;
+    background-color: #fff;
+    padding: 8px 50px;;
+    border-radius: 7px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-shadow: none;
+}
+.slidebutton:hover {
+    text-decoration: underline;
+    border: 1px solid #fff;
+}
+
+/*--------------------*/
+
+#mainbody {
+    width: 960px;
+    height: 1000px;
+    border: 4px solid transparent;
+}
+
+#ferris_wheel{
+    width: 960px;
+    height: 200px;
+    text-align:center;
+    margin: 20px 0 0 0;
+}
+
+#ferris_wheel_upper{
+    transform: translate(77%, -80%);
+    position: absolute;
+    z-index: 1;
+}
+
+
+
+#location {
+    width: 960px;
+    height: 400px;
+    margin: 10px 0 60px 0;
+    text-align: top;
+}
+
+#locationbox {
+    border: 4px solid transparent;
+    margin: 20px 0 20px 0;
+    display: inline-block;
+}
+
+#locationtext{
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    font-size: 22px;
+}
+
+
+
+#recentnews {
+    width: 960px;
+    height: 570px;
+    border: 4px solid black;
+   
+}
+
+#Highlight{
+    font-size: 30px;
+    text-align:center;
+}
+
+#leftrecent {
+    width: 310px;
+    height: 530px;
+    border: 0px solid transparent;
+    float: left;
+    text-align: left;
+    background: linear-gradient(#fdfcfb,#e2d1c3);
+    box-shadow: 10px 0 10px -10px #666,
+    -10px 0 10px -10px #666;
+    margin: 0px 2px;
+}
+
+#leftrecent> h2 {
+    text-align: center;
+}
+
+#leftrecent> img {
+    width: 310px;
+}
+
+#leftrecent> h3 {
+    text-align: center;
+}
+
+#centerrecent {
+    width: 310px;
+    height: 530px;
+    border: 0px solid transparent;
+    float: left;
+    text-align: center;
+    background: linear-gradient(#fffeff,#d7fffe);
+    box-shadow: 10px 0 10px -10px #666,
+    -10px 0 10px -10px #666; 
+    margin: 0px 8px;
+
+}
+
+#centerrecent>h2{
+    text-align: center;
+    color: #DF4A26;
+}
+
+#centerrecent>form{
+    align-items: center;
+}
+
+#centerrecent>form label{
+    visibility: collapse;
+    display: inline-block;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+#centerrecent>form input{
+    display: block;
+    margin-bottom: 8px;
+    margin-left: 55px;
+    background-color: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 2px solid #DF4A26; 
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+}
+
+#centerrecent>form input::placeholder{
+    text-align: center;
+    font-size: 15px;
+    color: #DF4A26;
+}
+
+#centerrecent>form select {
+    background-color: rgba(128, 128, 128, 0.1);
+    border: none;
+    padding: 8px;
+    align-items: center;
+    font-size: 14px;
+}
+
+#centerrecent>form option {
+    text-align:center;
+    color:#DF4A26;
+}
+
+#centerrecent>form button{
+    border: 1px solid white;
+    box-shadow: 0px 2px 0 white, 2px 4px 6px #eee;
+    font-size: 18px;
+    color: white;
+   letter-spacing: 1px;
+   line-height: 25px;
+   padding: 5px 10px 5px 10px;
+   background-color: #DF4A26;
+   -webkit-transition: all 150ms linear;
+          transition: all 150ms linear;
+}
+
+#rightrecent {
+    width: 310px;
+    height: 530px;
+    border: 0px solid transparent;
+    float: left;
+    background:linear-gradient(#E3FDF5,#FFE6FA);
+    box-shadow: 10px 0 10px -10px #666,
+    -10px 0 10px -10px #666;
+    margin: 0px 0px;
+}
+
+#rightrecent> h2 {
+    text-align: center;
+}
+
+
+
+footer {
+    width: 960px;
+    height: 200px;
+    background-image: url(..//images/Port_Hope_Footer.png);
+    background-size: 960px 200px;
+}
+
